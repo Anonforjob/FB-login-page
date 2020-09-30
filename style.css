@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fb {
+    font-family: 'Poppins', sans-serif;
+    font-weight:bold;
+    font-size: 20.5px;
+    color:#1877F2;
+    display: flex;
+    justify-content: center;
+    padding-top:10px;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+
+
+
+.enter {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    display: flex;
+    padding:12px;
+    margin-bottom: -15px;
+    margin-top: 20px;
+    width: 410px;
+    background-color:#f7f7f8;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    filter: drop-shadow(0.5px 0px 0px lightgray)
+}
+
+.login {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight:bold;
+    color: white;
+    display: flex;
+    padding:10px;
+    margin-bottom: -15px;
+    margin-top: 25px;
+    width: 410px;
+    background-color:#1877F2;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.or {
+    display: flex;
+    justify-content: center;
+    margin: 24px;
+
+}
+  
+.or:before,
+.or:after {
+  content: "–––––––––––––––––––––––";
+  margin: 0 .9em;
+  color: gray;
+  
+}
+
+
+.click {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight:bold;
+    color: white;
+    display: flex;
+    padding:10px;
+    margin-bottom: -15px;
+    margin-top: 10px;
+    width: 160px;
+    background-color:#00A400;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor:pointer;
+    
+}
+
+p {
+    display:flex;
+    justify-content: center;
+    margin: 27px;
+    color:orange;
+    text-decoration: none;
+    
+    
+}
+
+p a{
+    color:#bfcbf8;
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    line-height: 150%;
+    
+    
+    
+}
+
+.left ,.right {
+    text-align: center;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.left a{
+    text-decoration: none;
+}
+
+.right a{
+    text-decoration: none;
+}
+
+
+
+    
+  
+
+
+
